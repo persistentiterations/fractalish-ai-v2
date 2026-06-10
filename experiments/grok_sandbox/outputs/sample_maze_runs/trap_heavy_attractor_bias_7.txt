@@ -1,0 +1,13 @@
+Mode: D — experimental attractor-bias / goal-field (NON-CORE, uses goal position)
+Success: False
+Steps: 67
+
+#############
+#S*#.#.#...G#
+#.#.#.#.###.#
+#...#...#.#.#
+###.#####.#.#
+#...#...#.#.#
+#.###.#.#.#.#
+#.....#...#.#
+#############

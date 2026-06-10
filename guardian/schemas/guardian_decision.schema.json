@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GuardianDecision",
+  "type": "object",
+  "required": ["intake_id", "decision", "reason_codes", "policy_version"],
+  "properties": {
+    "intake_id": { "type": "string" },
+    "decision": {
+      "enum": [
+        "PROCEED", "WATCH", "HOLD", "REVERSE", "SANITIZED_ONLY",
+        "METADATA_ONLY", "HUMAN_REVIEW_REQUIRED", "PURGE_OR_EXPIRE"
+      ]
+    },
+    "reason_codes": { "type": "array", "items": { "type": "string" } },
+    "blocked_content_types": { "type": "array", "items": { "type": "string" } },
+    "allowed_representations": { "type": "array", "items": { "type": "string" } },
+    "requires_operator_review": { "type": "boolean" },
+    "expires_at": { "type": "string" },
+    "policy_version": { "type": "string" },
+    "decision_hash": { "type": "string" }
+  }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grok Sandbox — Maze Benchmark</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Maze Benchmark Dashboard</h1>
+    <p class="tag">Local-only sandbox. v3.6 remains core. Attractor bias is experimental.</p>
+  </header>
+  <main>
+    <section class="panel">
+      <h2>What this tests</h2>
+      <p>Controlled ASCII maze benchmark comparing memoryless search, memory-enabled search, v3.6-style local finite-energy decisions, and experimental attractor/trail modes.</p>
+      <p><strong>Not</strong> AGI, consciousness, or proof of intelligence.</p>
+    </section>
+    <section class="panel">
+      <h2>Mode distinction</h2>
+      <ul>
+        <li><strong>v3.6 core (maze adaptation)</strong> — local neighbor sensing, finite energy, EXTEND/SENSE/RESTRICT/HOLD. No global goal coordinates.</li>
+        <li><strong>Attractor bias</strong> — experimental goal-field uses goal position (nonlocal). Not v3.6 core.</li>
+        <li><strong>Memory / trails</strong> — experimental revisit and stigmergy layers.</li>
+      </ul>
+    </section>
+    <section class="panel">
+      <h2>Best mode per maze</h2>
+      <div id="best-modes">Loading…</div>
+    </section>
+    <section class="panel">
+      <h2>Aggregate results</h2>
+      <div id="results">Loading…</div>
+    </section>
+    <section class="panel">
+      <h2>Interpretation</h2>
+      <div id="interpretation">Loading…</div>
+    </section>
+    <section class="panel">
+      <h2>Run locally</h2>
+      <pre>python experiments/grok_sandbox/benchmark/run_maze_benchmark.py
+cd experiments/grok_sandbox/dashboard
+python -m http.server 8000</pre>
+    </section>
+  </main>
+  <footer>Maze-running is a benchmark, not a grand claim. HOLD remains conservative.</footer>
+  <script src="app.js"></script>
+</body>
+</html>

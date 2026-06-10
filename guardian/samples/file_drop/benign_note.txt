@@ -1,0 +1,11 @@
+Meeting notes — Q2 planning
+
+Attendees: Alex, Jordan, Sam
+Topics: roadmap review, budget allocation, hiring timeline.
+
+Action items:
+- Draft architecture overview by Friday
+- Schedule follow-up with design team
+- Review local prototype checklist
+
+No sensitive data. Standard internal notes.

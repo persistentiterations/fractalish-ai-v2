@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GuardianIntakeEvent",
+  "type": "object",
+  "required": [
+    "intake_id", "activation_id", "session_id", "source_channel",
+    "source_identity", "received_at", "raw_path", "declared_mime_type",
+    "detected_mime_type", "file_name", "size_bytes", "sha256",
+    "raw_available", "quarantine_path"
+  ],
+  "properties": {
+    "intake_id": { "type": "string" },
+    "activation_id": { "type": "string" },
+    "session_id": { "type": "string" },
+    "source_channel": { "type": "string" },
+    "source_identity": { "type": "string" },
+    "received_at": { "type": "string" },
+    "raw_path": { "type": "string" },
+    "declared_mime_type": { "type": "string" },
+    "detected_mime_type": { "type": "string" },
+    "file_name": { "type": "string" },
+    "size_bytes": { "type": "integer" },
+    "sha256": { "type": "string" },
+    "raw_available": { "type": "boolean" },
+    "quarantine_path": { "type": "string" },
+    "notes": { "type": "string" }
+  }
+}

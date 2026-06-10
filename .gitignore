@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Guardian generated outputs (regenerate via guardian/cli.py)
+guardian/outputs/**
+!guardian/outputs/.gitkeep
+
+# Guardian Authority generated outputs
+guardian_authority/outputs/**
+!guardian_authority/outputs/.gitkeep
+
+# Operational Self generated outputs
+operational_self/outputs/**
+!operational_self/outputs/.gitkeep
+
+# Generated outputs (regenerate via demos)
+outputs/**/*.json
+outputs/**/*.csv
+outputs/**/*.txt
+!outputs/investor_demo_summary.md
+demo_outputs/**/*.json
+experiments/cognitive_basin_workbench/outputs/*.json
+experiments/cognitive_basin_workbench/outputs/*.md
+!experiments/cognitive_basin_workbench/outputs/.gitkeep
+experiments/cognitive_basin_sim_v1/outputs/*.json
+experiments/cognitive_basin_sim_v1/outputs/*.md
+!experiments/cognitive_basin_sim_v1/outputs/.gitkeep
+
+# Secrets
+.env
+
+# Sandbox generated traces (keep sample_maze_runs/ only)
+experiments/grok_sandbox/outputs/maze_runs/*.json
+experiments/grok_sandbox/outputs/maze_runs/*.txt
+experiments/grok_sandbox/outputs/maze_benchmark_summary.json
+experiments/grok_sandbox/outputs/maze_benchmark_summary.csv
+experiments/grok_sandbox/outputs/grok_sandbox_report.json
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp / logs
+*.log
+*.tmp
+.cache/

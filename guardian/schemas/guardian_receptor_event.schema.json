@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GuardianReceptorEventBridge",
+  "description": "ReceptorEvent produced by GuardianReceptorBridge with guardian provenance",
+  "type": "object",
+  "required": ["receptor_id", "receptor_type", "event_id", "timestamp", "source", "modality"],
+  "properties": {
+    "receptor_id": { "type": "string" },
+    "receptor_type": {
+      "enum": [
+        "guardian_file", "guardian_email", "guardian_mcp_resource",
+        "guardian_browser_capture", "guardian_local_drop",
+        "basinmail_message", "basinmail_attachment"
+      ]
+    },
+    "event_id": { "type": "string" },
+    "timestamp": { "type": "string" },
+    "source": { "type": "string" },
+    "modality": { "type": "string" },
+    "raw_reference": { "type": "string" },
+    "raw_summary": { "type": "string" },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "guardian_intake_id": { "type": "string" },
+        "guardian_decision": { "type": "string" },
+        "guardian_risk_level": { "type": "string" },
+        "guardian_risk_score": { "type": "integer" },
+        "lifecycle_state": { "type": "string" },
+        "raw_model_visible": { "type": "boolean" },
+        "sanitized_model_visible": { "type": "boolean" }
+      }
+    }
+  }
+}

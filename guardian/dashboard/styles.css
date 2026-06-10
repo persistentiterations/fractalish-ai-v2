@@ -1,0 +1,88 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: #0f1419;
+  color: #e7ecf3;
+  line-height: 1.5;
+  padding: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header { margin-bottom: 2rem; border-bottom: 1px solid #2a3544; padding-bottom: 1rem; }
+h1 { font-size: 1.6rem; color: #7eb8ff; }
+h2 { font-size: 1.1rem; margin: 1.5rem 0 0.75rem; color: #a8c4e8; }
+.subtitle { color: #8b9cb3; font-size: 0.95rem; margin-top: 0.25rem; }
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.stat-card {
+  background: #1a2332;
+  border: 1px solid #2a3544;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+}
+
+.stat-card .label { font-size: 0.75rem; color: #8b9cb3; text-transform: uppercase; }
+.stat-card .value { font-size: 1.4rem; font-weight: 600; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  background: #1a2332;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #2a3544;
+}
+
+th { background: #243044; color: #a8c4e8; font-weight: 600; }
+tr:hover { background: #1e2a3a; }
+
+.badge {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.badge-LOW { background: #1a3d2e; color: #6ee7a0; }
+.badge-MEDIUM { background: #3d351a; color: #f0d060; }
+.badge-HIGH { background: #3d1f1a; color: #f08060; }
+.badge-CRITICAL { background: #4a1020; color: #ff6080; }
+
+.flags { font-size: 0.75rem; color: #c9a0a0; }
+.derivatives { font-size: 0.7rem; color: #8b9cb3; max-width: 200px; word-break: break-all; }
+
+.audit-entry {
+  background: #1a2332;
+  border-left: 3px solid #4a6fa5;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0 6px 6px 0;
+  font-size: 0.85rem;
+}
+
+footer {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #2a3544;
+  font-size: 0.8rem;
+  color: #6b7d94;
+}
+
+code { background: #243044; padding: 0.1rem 0.35rem; border-radius: 3px; }
+
+.error { color: #ff8080; padding: 1rem; background: #2a1520; border-radius: 8px; }

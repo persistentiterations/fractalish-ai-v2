@@ -1,0 +1,7 @@
+Mode: C — v3.6-style local finite-energy (EXTEND/SENSE/RESTRICT)
+Success: True
+Steps: 8
+
+###########
+#S*******G#
+###########

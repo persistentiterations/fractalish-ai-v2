@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GuardianSanitizedArtifact",
+  "type": "object",
+  "required": ["intake_id", "sanitized_id", "sanitized_path", "sanitized_text"],
+  "properties": {
+    "intake_id": { "type": "string" },
+    "sanitized_id": { "type": "string" },
+    "sanitized_path": { "type": "string" },
+    "sanitized_text": { "type": "string" },
+    "removed_or_flagged_segments": { "type": "array", "items": { "type": "string" } },
+    "visible_text_summary": { "type": "string" },
+    "unsafe_instruction_summary": { "type": "string" },
+    "model_visible_representation": { "type": "string" },
+    "allowed_representations": { "type": "array", "items": { "type": "string" } }
+  }
+}

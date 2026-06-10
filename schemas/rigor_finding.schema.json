@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RigorFinding",
+  "type": "object",
+  "required": ["analyzer", "state", "severity", "reason"],
+  "properties": {
+    "analyzer": { "type": "string" },
+    "state": { "enum": ["PASS", "HOLD", "REVERSE", "WATCH"] },
+    "severity": { "type": "string" },
+    "reason": { "type": "string" },
+    "evidence_present": { "type": "array", "items": { "type": "string" } },
+    "evidence_missing": { "type": "array", "items": { "type": "string" } },
+    "recommended_action": { "type": "string" }
+  }
+}

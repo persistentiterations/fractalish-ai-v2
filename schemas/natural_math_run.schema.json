@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NaturalMathRun",
+  "type": "object",
+  "required": ["baseline", "memory_enabled"],
+  "properties": {
+    "baseline": { "type": "object" },
+    "memory_enabled": { "type": "object" },
+    "efficiency_delta": { "type": "number" },
+    "memory_helped": { "type": "boolean" },
+    "comparison_mode": { "type": "string" },
+    "steps_baseline": { "type": "integer" },
+    "steps_memory": { "type": "integer" },
+    "revisits_baseline": { "type": "integer" },
+    "revisits_memory": { "type": "integer" }
+  }
+}

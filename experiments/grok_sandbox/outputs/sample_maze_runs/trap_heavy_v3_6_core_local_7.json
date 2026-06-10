@@ -1,0 +1,1555 @@
+{
+  "maze_name": "trap_heavy",
+  "mode": "v3_6_core_local",
+  "mode_label": "C \u2014 v3.6-style local finite-energy (EXTEND/SENSE/RESTRICT)",
+  "seed": 7,
+  "success": false,
+  "steps": 121,
+  "revisits": 0,
+  "dead_ends": 0,
+  "wall_hits": 0,
+  "trap_count": 0,
+  "energy_used": 197.0,
+  "remaining_energy": 3.0,
+  "path_length": 27,
+  "efficiency_score": 0.0083,
+  "extend_count": 26,
+  "sense_count": 95,
+  "restrict_count": 1,
+  "hold_count": 0,
+  "start": [
+    1,
+    1
+  ],
+  "goal": [
+    11,
+    1
+  ],
+  "final_pos": [
+    9,
+    3
+  ],
+  "failure_reason": "dead_end_or_energy",
+  "uses_nonlocal_goal_knowledge": false,
+  "experimental": false,
+  "path": [
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      7,
+      5
+    ],
+    [
+      7,
+      6
+    ],
+    [
+      7,
+      7
+    ],
+    [
+      8,
+      7
+    ],
+    [
+      9,
+      7
+    ],
+    [
+      9,
+      6
+    ],
+    [
+      9,
+      5
+    ],
+    [
+      9,
+      4
+    ],
+    [
+      9,
+      3
+    ]
+  ],
+  "visited_cells": [
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      9,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      7,
+      7
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      9,
+      7
+    ],
+    [
+      9,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      7,
+      6
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      8,
+      7
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      9,
+      6
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      7,
+      5
+    ]
+  ],
+  "energy_trace": [
+    200.0,
+    197.0,
+    194.0,
+    191.0,
+    188.0,
+    185.0,
+    182.0,
+    179.0,
+    176.0,
+    173.0,
+    170.0,
+    167.0,
+    164.0,
+    161.0,
+    158.0,
+    155.0,
+    152.0,
+    149.0,
+    146.0,
+    143.0,
+    140.0,
+    137.0,
+    134.0,
+    131.0,
+    128.0,
+    125.0,
+    122.0,
+    120.8,
+    119.6,
+    118.39999999999999,
+    117.19999999999999,
+    115.99999999999999,
+    114.79999999999998,
+    113.59999999999998,
+    112.39999999999998,
+    111.19999999999997,
+    109.99999999999997,
+    108.79999999999997,
+    107.59999999999997,
+    106.39999999999996,
+    105.19999999999996,
+    103.99999999999996,
+    102.79999999999995,
+    101.59999999999995,
+    100.39999999999995,
+    99.19999999999995,
+    97.99999999999994,
+    96.79999999999994,
+    95.59999999999994,
+    94.39999999999993,
+    93.19999999999993,
+    91.99999999999993,
+    90.79999999999993,
+    89.59999999999992,
+    88.39999999999992,
+    87.19999999999992,
+    85.99999999999991,
+    84.79999999999991,
+    83.59999999999991,
+    82.3999999999999,
+    81.1999999999999,
+    79.9999999999999,
+    78.7999999999999,
+    77.5999999999999,
+    76.39999999999989,
+    75.19999999999989,
+    73.99999999999989,
+    72.79999999999988,
+    71.59999999999988,
+    70.39999999999988,
+    69.19999999999987,
+    67.99999999999987,
+    66.79999999999987,
+    65.59999999999987,
+    64.39999999999986,
+    63.19999999999986,
+    61.99999999999986,
+    60.799999999999855,
+    59.59999999999985,
+    58.39999999999985,
+    57.19999999999985,
+    55.999999999999844,
+    54.79999999999984,
+    53.59999999999984,
+    52.399999999999835,
+    51.19999999999983,
+    49.99999999999983,
+    48.79999999999983,
+    47.599999999999824,
+    46.39999999999982,
+    45.19999999999982,
+    43.999999999999815,
+    42.79999999999981,
+    41.59999999999981,
+    40.39999999999981,
+    39.199999999999804,
+    37.9999999999998,
+    36.7999999999998,
+    35.599999999999795,
+    34.39999999999979,
+    33.19999999999979,
+    31.99999999999979,
+    30.79999999999979,
+    29.599999999999792,
+    28.399999999999793,
+    27.199999999999793,
+    25.999999999999794,
+    24.799999999999795,
+    23.599999999999795,
+    22.399999999999796,
+    21.199999999999797,
+    19.999999999999797,
+    18.799999999999798,
+    17.5999999999998,
+    16.3999999999998,
+    15.1999999999998,
+    13.999999999999801,
+    12.799999999999802,
+    11.599999999999802,
+    10.399999999999803,
+    9.199999999999804,
+    7.999999999999804,
+    2.9999999999998037
+  ],
+  "decision_trace": [
+    {
+      "step": 1,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        2
+      ]
+    },
+    {
+      "step": 2,
+      "pos": [
+        1,
+        2
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        3
+      ]
+    },
+    {
+      "step": 3,
+      "pos": [
+        1,
+        3
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        3
+      ]
+    },
+    {
+      "step": 4,
+      "pos": [
+        2,
+        3
+      ],
+      "action": "EXTEND",
+      "next": [
+        3,
+        3
+      ]
+    },
+    {
+      "step": 5,
+      "pos": [
+        3,
+        3
+      ],
+      "action": "EXTEND",
+      "next": [
+        3,
+        4
+      ]
+    },
+    {
+      "step": 6,
+      "pos": [
+        3,
+        4
+      ],
+      "action": "EXTEND",
+      "next": [
+        3,
+        5
+      ]
+    },
+    {
+      "step": 7,
+      "pos": [
+        3,
+        5
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        5
+      ]
+    },
+    {
+      "step": 8,
+      "pos": [
+        2,
+        5
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        5
+      ]
+    },
+    {
+      "step": 9,
+      "pos": [
+        1,
+        5
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        6
+      ]
+    },
+    {
+      "step": 10,
+      "pos": [
+        1,
+        6
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        7
+      ]
+    },
+    {
+      "step": 11,
+      "pos": [
+        1,
+        7
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        7
+      ]
+    },
+    {
+      "step": 12,
+      "pos": [
+        2,
+        7
+      ],
+      "action": "EXTEND",
+      "next": [
+        3,
+        7
+      ]
+    },
+    {
+      "step": 13,
+      "pos": [
+        3,
+        7
+      ],
+      "action": "EXTEND",
+      "next": [
+        4,
+        7
+      ]
+    },
+    {
+      "step": 14,
+      "pos": [
+        4,
+        7
+      ],
+      "action": "EXTEND",
+      "next": [
+        5,
+        7
+      ]
+    },
+    {
+      "step": 15,
+      "pos": [
+        5,
+        7
+      ],
+      "action": "EXTEND",
+      "next": [
+        5,
+        6
+      ]
+    },
+    {
+      "step": 16,
+      "pos": [
+        5,
+        6
+      ],
+      "action": "EXTEND",
+      "next": [
+        5,
+        5
+      ]
+    },
+    {
+      "step": 17,
+      "pos": [
+        5,
+        5
+      ],
+      "action": "EXTEND",
+      "next": [
+        6,
+        5
+      ]
+    },
+    {
+      "step": 18,
+      "pos": [
+        6,
+        5
+      ],
+      "action": "EXTEND",
+      "next": [
+        7,
+        5
+      ]
+    },
+    {
+      "step": 19,
+      "pos": [
+        7,
+        5
+      ],
+      "action": "EXTEND",
+      "next": [
+        7,
+        6
+      ]
+    },
+    {
+      "step": 20,
+      "pos": [
+        7,
+        6
+      ],
+      "action": "EXTEND",
+      "next": [
+        7,
+        7
+      ]
+    },
+    {
+      "step": 21,
+      "pos": [
+        7,
+        7
+      ],
+      "action": "EXTEND",
+      "next": [
+        8,
+        7
+      ]
+    },
+    {
+      "step": 22,
+      "pos": [
+        8,
+        7
+      ],
+      "action": "EXTEND",
+      "next": [
+        9,
+        7
+      ]
+    },
+    {
+      "step": 23,
+      "pos": [
+        9,
+        7
+      ],
+      "action": "EXTEND",
+      "next": [
+        9,
+        6
+      ]
+    },
+    {
+      "step": 24,
+      "pos": [
+        9,
+        6
+      ],
+      "action": "EXTEND",
+      "next": [
+        9,
+        5
+      ]
+    },
+    {
+      "step": 25,
+      "pos": [
+        9,
+        5
+      ],
+      "action": "EXTEND",
+      "next": [
+        9,
+        4
+      ]
+    },
+    {
+      "step": 26,
+      "pos": [
+        9,
+        4
+      ],
+      "action": "EXTEND",
+      "next": [
+        9,
+        3
+      ]
+    },
+    {
+      "step": 27,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 28,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 29,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 30,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 31,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 32,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 33,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 34,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 35,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 36,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 37,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 38,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 39,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 40,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 41,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 42,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 43,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 44,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 45,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 46,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 47,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 48,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 49,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 50,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 51,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 52,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 53,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 54,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 55,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 56,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 57,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 58,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 59,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 60,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 61,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 62,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 63,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 64,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 65,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 66,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 67,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 68,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 69,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 70,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 71,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 72,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 73,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 74,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 75,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 76,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 77,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 78,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 79,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 80,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 81,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 82,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 83,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 84,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 85,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 86,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 87,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 88,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 89,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 90,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 91,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 92,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 93,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 94,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 95,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 96,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 97,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 98,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 99,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 100,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 101,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 102,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 103,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 104,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 105,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 106,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 107,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 108,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 109,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 110,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 111,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 112,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 113,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 114,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 115,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 116,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 117,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 118,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 119,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 120,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 121,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "SENSE",
+      "note": "local_sense_hold_pressure"
+    },
+    {
+      "step": 122,
+      "pos": [
+        9,
+        3
+      ],
+      "action": "RESTRICT",
+      "note": "blocked_or_dead_end"
+    }
+  ],
+  "dead_end_cells": []
+}

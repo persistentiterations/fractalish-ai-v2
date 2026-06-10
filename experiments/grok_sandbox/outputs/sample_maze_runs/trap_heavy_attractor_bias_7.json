@@ -1,0 +1,1196 @@
+{
+  "maze_name": "trap_heavy",
+  "mode": "attractor_bias",
+  "mode_label": "D \u2014 experimental attractor-bias / goal-field (NON-CORE, uses goal position)",
+  "seed": 7,
+  "success": false,
+  "steps": 67,
+  "revisits": 65,
+  "dead_ends": 0,
+  "wall_hits": 0,
+  "trap_count": 0,
+  "energy_used": 200.0,
+  "remaining_energy": 0.0,
+  "path_length": 68,
+  "efficiency_score": 0.0002,
+  "extend_count": 67,
+  "sense_count": 0,
+  "restrict_count": 0,
+  "hold_count": 0,
+  "start": [
+    1,
+    1
+  ],
+  "goal": [
+    11,
+    1
+  ],
+  "final_pos": [
+    2,
+    1
+  ],
+  "failure_reason": "energy_exhausted",
+  "uses_nonlocal_goal_knowledge": true,
+  "experimental": true,
+  "path": [
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "visited_cells": [
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "energy_trace": [
+    200.0,
+    197.0,
+    194.0,
+    191.0,
+    188.0,
+    185.0,
+    182.0,
+    179.0,
+    176.0,
+    173.0,
+    170.0,
+    167.0,
+    164.0,
+    161.0,
+    158.0,
+    155.0,
+    152.0,
+    149.0,
+    146.0,
+    143.0,
+    140.0,
+    137.0,
+    134.0,
+    131.0,
+    128.0,
+    125.0,
+    122.0,
+    119.0,
+    116.0,
+    113.0,
+    110.0,
+    107.0,
+    104.0,
+    101.0,
+    98.0,
+    95.0,
+    92.0,
+    89.0,
+    86.0,
+    83.0,
+    80.0,
+    77.0,
+    74.0,
+    71.0,
+    68.0,
+    65.0,
+    62.0,
+    59.0,
+    56.0,
+    53.0,
+    50.0,
+    47.0,
+    44.0,
+    41.0,
+    38.0,
+    35.0,
+    32.0,
+    29.0,
+    26.0,
+    23.0,
+    20.0,
+    17.0,
+    14.0,
+    11.0,
+    8.0,
+    5.0,
+    2.0,
+    0.0
+  ],
+  "decision_trace": [
+    {
+      "step": 1,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 2,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 3,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 4,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 5,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 6,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 7,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 8,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 9,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 10,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 11,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 12,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 13,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 14,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 15,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 16,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 17,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 18,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 19,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 20,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 21,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 22,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 23,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 24,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 25,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 26,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 27,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 28,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 29,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 30,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 31,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 32,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 33,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 34,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 35,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 36,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 37,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 38,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 39,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 40,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 41,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 42,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 43,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 44,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 45,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 46,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 47,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 48,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 49,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 50,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 51,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 52,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 53,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 54,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 55,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 56,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 57,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 58,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 59,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 60,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 61,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 62,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 63,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 64,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 65,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "step": 66,
+      "pos": [
+        2,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "step": 67,
+      "pos": [
+        1,
+        1
+      ],
+      "action": "EXTEND",
+      "next": [
+        2,
+        1
+      ]
+    }
+  ],
+  "dead_end_cells": []
+}

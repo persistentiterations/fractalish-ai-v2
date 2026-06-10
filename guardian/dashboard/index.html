@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guardian Intake Gateway — Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Guardian Intake Gateway v0.1</h1>
+    <p class="subtitle">Local-first intake membrane — zero-trust anti-viral layer</p>
+  </header>
+
+  <section id="stats" class="stats-grid"></section>
+
+  <section>
+    <h2>Intake Events</h2>
+    <div id="intake-table"></div>
+  </section>
+
+  <section>
+    <h2>Audit Timeline</h2>
+    <div id="audit-timeline"></div>
+  </section>
+
+  <footer>
+    <p>Serve locally: <code>cd guardian/dashboard && python -m http.server 8005</code></p>
+    <p>Reads <code>../outputs/dashboard_summary.json</code> — no CDN, no remote calls.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

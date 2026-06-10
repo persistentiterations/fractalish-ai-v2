@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GuardianLifecycleRecord",
+  "type": "object",
+  "required": [
+    "artifact_id", "intake_id", "activation_id", "session_id",
+    "owner", "privacy_scope", "lifecycle_state", "retention_policy",
+    "expires_at", "legal_hold", "purge_allowed"
+  ],
+  "properties": {
+    "artifact_id": { "type": "string" },
+    "intake_id": { "type": "string" },
+    "activation_id": { "type": "string" },
+    "session_id": { "type": "string" },
+    "owner": { "type": "string" },
+    "privacy_scope": { "type": "string" },
+    "lifecycle_state": {
+      "enum": [
+        "RECEIVED", "QUARANTINED", "SCANNING", "SANITIZED", "MODEL_VISIBLE",
+        "LIMITED_EXPOSURE", "HOLD", "HUMAN_REVIEW", "REJECTED", "EXPIRED",
+        "PURGE_PENDING", "PURGED"
+      ]
+    },
+    "retention_policy": { "type": "string" },
+    "expires_at": { "type": "string" },
+    "legal_hold": { "type": "boolean" },
+    "purge_allowed": { "type": "boolean" },
+    "purge_requested_at": { "type": "string" },
+    "purge_completed_at": { "type": "string" },
+    "derivative_artifacts": { "type": "object" },
+    "audit_log_reference": { "type": "string" }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BasinLink",
+  "type": "object",
+  "required": ["activation_id"],
+  "properties": {
+    "activation_id": { "type": "string" },
+    "purpose": { "type": "string" },
+    "operator_constraints": { "type": "array", "items": { "type": "string" } },
+    "basin_state": { "type": "object" },
+    "fractal_memory_map": { "$ref": "fractal_memory_map.schema.json" }
+  }
+}

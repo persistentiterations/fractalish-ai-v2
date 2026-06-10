@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "McvaRecord",
+  "type": "object",
+  "required": ["decision", "confidence", "descriptors"],
+  "properties": {
+    "decision": { "type": "string", "enum": ["MCVA", "HOLD", "AMCVA"] },
+    "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+    "descriptors": { "type": "object" },
+    "hold_reason": { "type": "string" },
+    "amcva_reason": { "type": "string" },
+    "recommended_next_action": { "type": "string" },
+    "source_hash": { "type": "string" }
+  }
+}

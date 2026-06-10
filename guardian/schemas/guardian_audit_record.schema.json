@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GuardianAuditRecord",
+  "type": "object",
+  "required": [
+    "audit_id", "intake_id", "timestamp", "action", "actor",
+    "before_state", "after_state", "reason"
+  ],
+  "properties": {
+    "audit_id": { "type": "string" },
+    "intake_id": { "type": "string" },
+    "timestamp": { "type": "string" },
+    "action": { "type": "string" },
+    "actor": { "type": "string" },
+    "before_state": { "type": "string" },
+    "after_state": { "type": "string" },
+    "reason": { "type": "string" },
+    "hash_reference": { "type": "string" }
+  }
+}

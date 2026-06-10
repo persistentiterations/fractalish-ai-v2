@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FractalMemoryMap",
+  "type": "object",
+  "required": ["nodes", "links"],
+  "properties": {
+    "center_node_id": { "type": "string" },
+    "nodes": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["node_id", "label"],
+        "properties": {
+          "node_id": { "type": "string" },
+          "label": { "type": "string" },
+          "glyph_id": { "type": "string" },
+          "salience": { "type": "number" },
+          "current_distance_from_center": { "type": "number" },
+          "replay_score": { "type": "number" },
+          "contradiction_score": { "type": "number" },
+          "uncertainty_score": { "type": "number" },
+          "domain_tags": { "type": "array", "items": { "type": "string" } },
+          "source": { "type": "string" },
+          "links": { "type": "array", "items": { "type": "string" } },
+          "hold_flag": { "type": "boolean" },
+          "fog_region": { "type": "boolean" },
+          "blocked": { "type": "boolean" }
+        }
+      }
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source_node", "target_node", "relation_type"],
+        "properties": {
+          "source_node": { "type": "string" },
+          "target_node": { "type": "string" },
+          "relation_type": {
+            "enum": ["semantic", "causal", "temporal", "project", "contradiction", "recovery", "analogy", "operator", "morphology"]
+          },
+          "strength": { "type": "number" },
+          "replay_validated": { "type": "boolean" },
+          "blocked": { "type": "boolean" },
+          "hold_flag": { "type": "boolean" },
+          "notes": { "type": "string" }
+        }
+      }
+    },
+    "hold_regions": { "type": "array", "items": { "type": "string" } }
+  }
+}

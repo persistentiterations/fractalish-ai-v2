@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GuardianScanReport",
+  "type": "object",
+  "required": ["intake_id", "scan_status", "risk_score", "risk_level"],
+  "properties": {
+    "intake_id": { "type": "string" },
+    "scan_status": { "type": "string" },
+    "malware_stub_status": { "type": "string" },
+    "file_type_status": { "type": "string" },
+    "archive_status": { "type": "string" },
+    "macro_status": { "type": "string" },
+    "link_status": { "type": "string" },
+    "prompt_injection_flags": { "type": "array", "items": { "type": "string" } },
+    "hidden_instruction_flags": { "type": "array", "items": { "type": "string" } },
+    "tool_poisoning_flags": { "type": "array", "items": { "type": "string" } },
+    "suspicious_patterns": { "type": "array", "items": { "type": "string" } },
+    "dlp_flags": { "type": "array", "items": { "type": "string" } },
+    "risk_score": { "type": "integer", "minimum": 0, "maximum": 100 },
+    "risk_level": { "enum": ["LOW", "MEDIUM", "HIGH", "CRITICAL"] },
+    "confidence": { "type": "number" },
+    "uncertainty": { "type": "number" },
+    "reason_codes": { "type": "array", "items": { "type": "string" } },
+    "safe_to_summarize": { "type": "boolean" },
+    "raw_model_visible": { "type": "boolean" },
+    "sanitized_model_visible": { "type": "boolean" },
+    "metadata_only": { "type": "boolean" },
+    "human_review_required": { "type": "boolean" }
+  }
+}

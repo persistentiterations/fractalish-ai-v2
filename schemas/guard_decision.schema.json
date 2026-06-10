@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GuardDecision",
+  "type": "object",
+  "required": ["decision", "reason", "triggered_by", "confidence"],
+  "properties": {
+    "decision": { "enum": ["PROCEED", "HOLD", "REVERSE", "WATCH"] },
+    "reason": { "type": "string" },
+    "triggered_by": { "type": "array", "items": { "type": "string" } },
+    "confidence": { "type": "number", "minimum": 0, "maximum": 1 }
+  }
+}

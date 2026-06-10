@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BasinState",
+  "type": "object",
+  "required": ["activation_id", "atal", "circuit"],
+  "properties": {
+    "activation_id": { "type": "string" },
+    "purpose": { "type": "string" },
+    "operator_constraints": { "type": "array", "items": { "type": "string" } },
+    "atal": { "type": "object" },
+    "circuit": { "type": "object" },
+    "session_glyph": { "type": "object" }
+  }
+}

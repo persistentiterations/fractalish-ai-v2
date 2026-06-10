@@ -1,0 +1,11 @@
+Mode: B — memory-enabled search (visited-cell memory)
+Success: True
+Steps: 12
+
+###########
+#S**#****G#
+#.#*#*#####
+#.#***#...#
+#.#####.#.#
+#.......#.#
+###########
